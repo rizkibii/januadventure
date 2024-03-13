@@ -2,43 +2,55 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5pMyWQwTW5W":
+      case "6fqsAgJ02wg":
         Script1();
         break;
-      case "5dBOzWZB91D":
+      case "5ryh0AbylVQ":
         Script2();
         break;
-      case "5W8sQM0gL1R":
+      case "6pXhtStuTz8":
         Script3();
         break;
-      case "6e6YewHzbW6":
+      case "6Qx4jxwU1dO":
         Script4();
         break;
-      case "5kc7uc2uAEF":
+      case "5eNmSLnriMS":
         Script5();
         break;
-      case "6LMtwcZt0xJ":
+      case "6duid33quRi":
         Script6();
         break;
-      case "5ia7d7LkSnH":
+      case "5UlknXjFbQN":
         Script7();
         break;
-      case "6E0Akd02AqG":
+      case "68H8dUKtqyK":
         Script8();
         break;
-      case "6hVqQHFjJ3m":
+      case "6Tj8O4OW3aq":
         Script9();
         break;
-      case "6686dAuAUeN":
+      case "6Ebbt8LJwG5":
         Script10();
         break;
-      case "68Dxmu9N9vd":
+      case "5c8dcyxX0uJ":
         Script11();
+        break;
+      case "63eozOyaVZN":
+        Script12();
         break;
   }
 }
 
 function Script1()
+{
+  var audio = document.getElementById('bgSongku');
+audio.src="musikku.mp3";
+audio.load();
+audio.play();
+audio.volume=0.3;
+}
+
+function Script2()
 {
   //load the scripts dynamically into the head of the document
 function add_line() {
@@ -61,7 +73,7 @@ audio.volume = 1.0;
 
 }
 
-function Script2()
+function Script3()
 {
   var player = GetPlayer();
 this.Location= player.GetVar("location");
@@ -72,7 +84,7 @@ audio.load();
 audio.play();
 }
 
-function Script3()
+function Script4()
 {
   var player = GetPlayer();
 this.Location= player.GetVar("location");
@@ -83,7 +95,7 @@ audio.load();
 audio.play();
 }
 
-function Script4()
+function Script5()
 {
   var player = GetPlayer();
 this.Location= player.GetVar("location");
@@ -94,7 +106,7 @@ audio.load();
 audio.play();
 }
 
-function Script5()
+function Script6()
 {
   var player = GetPlayer();
 this.Location= player.GetVar("location");
@@ -105,37 +117,37 @@ audio.load();
 audio.play();
 }
 
-function Script6()
+function Script7()
 {
   var audio = document.getElementById('bgSong');
 audio.volume = 0.0;
 }
 
-function Script7()
+function Script8()
 {
   var audio = document.getElementById('bgSong');
 audio.volume = 0.2;
 }
 
-function Script8()
+function Script9()
 {
   var audio = document.getElementById('bgSong');
 audio.volume = 0.4;
 }
 
-function Script9()
+function Script10()
 {
   var audio = document.getElementById('bgSong');
 audio.volume = 0.6;
 }
 
-function Script10()
+function Script11()
 {
   var audio = document.getElementById('bgSong');
 audio.volume = 0.8;
 }
 
-function Script11()
+function Script12()
 {
   var audio = document.getElementById('bgSong');
 audio.volume = 1.0;
