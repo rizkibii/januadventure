@@ -1294,6 +1294,11 @@
             <slidelink slideid="_player.65xtIOjBwdz.5pU5hUvz9Mc" displaytext="Bermain" expand="false" type="slide" />
           </links>
         </slidelink>
+        <slidelink slideid="_player.5lnWjYsboaG" displaytext="audio" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5lnWjYsboaG.6aYdE7AeXTo" displaytext="audio setting" expand="false" type="slide" />
+          </links>
+        </slidelink>
         <slidelink slideid="_player.5aqX3Yfmsll" displaytext="Belajar" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5aqX3Yfmsll.6hTU1CwSWRT" displaytext="Belajar" expand="false" type="slide" />
